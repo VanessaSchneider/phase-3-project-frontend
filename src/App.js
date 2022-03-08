@@ -3,6 +3,7 @@ import './App.css';
 import React from "react";
 import UserFeed from './UserFeed';
 import CommentsPage from './CommentsPage'
+import MakePost from './MakePost'
 import {
   Switch,
   Route
@@ -25,6 +26,7 @@ function App() {
           
       </div>
       </header>
+      <MakePost/>
     </div>
   );
 }
